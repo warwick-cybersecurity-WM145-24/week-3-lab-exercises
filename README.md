@@ -16,3 +16,11 @@ It's OK to google and to visit websites like stackoverflow.com for advice too
 ### Optional
 - Create an alias for your git command
 
+
+## Exercise 2
+
+1. Checkout in the branch boat-drawing and rebase the branch on master, to ensure the branch has the latest changes in master applied to it
+
+2. In the branch `boat-drawing` make the windows of the boat squared without changing the code, only by using git rebase -i
+
+3. Make the background of the ship yellow by cherrypicking the relevant commit from the branch "new-background" using `git cherry-pick`
